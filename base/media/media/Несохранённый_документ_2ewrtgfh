@@ -1,0 +1,71 @@
+<div class="control-group">
+                                        <label class="control-label">{{form.surname.label}}</label>
+                                        <div class="controls">
+                                            {{form.surname}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.name.label}}</label>
+                                        <div class="controls">
+                                            {{form.name}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.patronymic.label}}</label>
+                                        <div class="controls">
+                                            {{form.patronymic}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.pin.label}}</label>
+                                        <div class="controls">
+                                            {{form.pin}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.address.label}}</label>
+                                        <div class="controls">
+                                            {{form.address}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.pin_bank.label}}</label>
+                                        <div class="controls">
+                                            {{form.pin_bank}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.erp.label}}</label>
+                                        <div class="controls">
+                                            {{form.erp}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.image.label}}</label>
+                                        <div class="controls">
+                                            {{form.image}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.image1.label}}</label>
+                                        <div class="controls">
+                                            {{form.image1}}
+                                        </div>
+                                    </div>
+
+                                    <div class="control-group">
+                                        <label class="control-label">{{form.image2.label}}</label>
+                                        <div class="controls">
+                                            {{form.image2}}
+                                        </div>
+                                    </div>
+        </form>
+</div>
