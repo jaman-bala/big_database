@@ -11,7 +11,7 @@ class Passport(models.Model):
     patronymic = models.CharField(max_length=255, verbose_name="Отчество")
     pin = models.CharField(max_length=255, unique=True, verbose_name="ПИН")
     address = models.CharField(max_length=255, verbose_name="Адрес")
-    erp = models.TextField(verbose_name="Фабула")
+    erp = models.TextField(verbose_name="Комментарии")
     image = models.FileField(upload_to='media', blank=True, verbose_name="Добавить фото")
     status = models.BooleanField(default=True)
     is_active = models.BooleanField("Активный", default=True)

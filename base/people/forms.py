@@ -35,7 +35,7 @@ class PassportForm(forms.ModelForm):
 
             "erp": forms.Textarea(
                 attrs={"class": "form-control",
-                       "placeholder": "Номер ЕРП",
+                       "placeholder": "Комментарии",
                         "rows": 5,
                        }),
 
